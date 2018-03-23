@@ -9,10 +9,10 @@ $(function() {
     $(".options").hide();
     ("span.user").text("#name");
     var ans1 = $("#firstQ").val();
-    var ans2 = $("#firstQ").val();
-    var ans3 = $("#firstQ").val();
-    var ans4 = $("#firstQ").val();
-    var ans5 = $("#firstQ").val();
+    var ans2 = $("#secondQ").val();
+    var ans3 = $("#thirdQ").val();
+    var ans4 = $("#fourthQ").val();
+    var ans5 = $("#fifthQ").val();
 
     if (ans1 === "f") {
       ("#css").slideDown();

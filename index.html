@@ -14,17 +14,48 @@
       <div class="questions">
         <h2>Answer these questions to find out!</h2>
         <form id="choose">
+          <label for="name">First tell us your name:</label>
+          <input type="text" name="name" id="name">
           <div class="firstQ">
-            <label for="name">First tell us your name:</label>
-            <input type="text" name="name" id="name">
-            <label for="firstQ"></label>
+            <label for="firstQ">Which interests you more?</label>
             <select class="form-control" id="firstQ">
-              <option value="a"></option>
-              <option value="b"></option>
-              <option value="c"></option>
-              <option value="d"></option>
+              <option value="f">Design</option>
+              <option value="b">Function</option>
             </select>
           </div>
+          <div class="secondQ">
+            <label for="secondQ">Do you have experience in coding?</label>
+            <select class="form-control" id="secondQ">
+              <option value="jc">Yes, I have experience.</option>
+              <option value="r">No, I'm a beginner.</option>
+            </select>
+          </div>
+          <div class="thirdQ">
+            <label for="thirdQ">What kind of company would you like to work for?</label>
+            <select class="form-control" id="thirdQ">
+              <option value="j">Large Enterprise</option>
+              <option value="r">Small Startup</option>
+              <option value="c">Government</option>
+            </select>
+          </div>
+          <div class="fourthQ">
+            <label for="fourthQ">What would you prefer to work on?</label>
+            <select class="form-control" id="fourthQ">
+              <option value="j">android apps</option>
+              <option value="r">interactive apps</option>
+              <option value="jc">enterprise software</option>
+            </select>
+          </div>
+          <div class="fifthQ">
+            <label for="fifthQ">Do you have a preferred framework to use?</label>
+            <select class="form-control" id="fifthQ">
+              <option value="c">.net</option>
+              <option value="r">Rails</option>
+              <option value="j">React</option>
+              <option value="">none</option>
+            </select>
+          </div>
+
         </form>
       </div>
       <div class="options" id="java">
