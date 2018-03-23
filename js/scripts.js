@@ -25,19 +25,21 @@ $(function() {
     var name = $("#name").val();
     if (name) {
       $(".options").hide();
+      $(".questions").hide();
       $("span").text(name);
       var ans1 = $("#firstQ").val();
       var ans2 = $("#secondQ").val();
       var ans3 = $("#thirdQ").val();
       var ans4 = $("#fourthQ").val();
       var ans5 = $("#fifthQ").val();
+      var result= maxLetter(answers(ans2, ans3, ans4, ans5));
       if (ans1 === "f") {
         $("#css").slideDown();
-      }else if (maxLetter(answers(ans2, ans3, ans4, ans5)) === "j") {
+      }else if (result === "j") {
         $("#java").slideDown();
-      }else if (maxLetter(answers(ans2, ans3, ans4, ans5)) === "r") {
+      }else if (result === "r") {
         $("#ruby").slideDown();
-      }else if (maxLetter(answers(ans2, ans3, ans4, ans5)) === "c") {
+      }else if (result === "c") {
         $("#csharp").slideDown();
       }else {
         $("#none").slideDown();

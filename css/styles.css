@@ -1,9 +1,9 @@
-.options {
+.options, #try {
   display: none;
 }
 
 button {
-  margin-top: 10px;
+  margin: 10px 0px;
 }
 h1, h2 {
   text-align: center;
