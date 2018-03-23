@@ -10,9 +10,35 @@
   </head>
   <body>
     <div class="container">
-      <form id="choose">
-        
-      </form>
+      <h1>Which programming language should you choose?</h1>
+      <div class="questions">
+        <h2>Answer these questions to find out!</h2>
+        <form id="choose">
+          <div class="firstQ">
+            <label for="name">First tell us your name:</label>
+            <input type="text" name="name" id="name">
+            <label for="firstQ"></label>
+            <select class="form-control" id="firstQ">
+              <option value="a"></option>
+              <option value="b"></option>
+              <option value="c"></option>
+              <option value="d"></option>
+            </select>
+          </div>
+        </form>
+      </div>
+      <div class="options" id="java">
+        <p><span class="user"></span>, you should choose Java!</p>
+      </div>
+      <div class="options" id="ruby">
+        <p><span class="user"></span>, you should choose Ruby!</p>
+      </div>
+      <div class="options" id="csharp">
+        <p><span class="user"></span>, you should choose C#!</p>
+      </div>
+      <div class="options" id="css">
+        <p><span class="user"></span>, you should choose CSS!</p>
+      </div>
     </div>
   </body>
 </html>
