@@ -35,17 +35,25 @@ $(function() {
       var result= maxLetter(answers(ans2, ans3, ans4, ans5));
       if (ans1 === "f") {
         $("#css").slideDown();
+        $("#try").show();
       }else if (result === "j") {
         $("#java").slideDown();
+        $("#try").show();
       }else if (result === "r") {
         $("#ruby").slideDown();
+        $("#try").show();
       }else if (result === "c") {
         $("#csharp").slideDown();
+        $("#try").show();
       }else {
         $("#none").slideDown();
+        $("#try").show();
       }
     } else {
       alert("Please enter a name!");
     }
+  });
+  $("#try").click(function() {
+    location.reload();
   });
 });

@@ -1,13 +1,39 @@
 .options, #try {
   display: none;
+  text-align: center;
 }
 
 button {
   margin: 10px 0px;
 }
+
 h1, h2 {
   text-align: center;
 }
+
+h1 {
+  font-size: 55px;
+  text-shadow: 2px 3px #35383d;
+}
+
+img {
+  display: block;
+  width: 50%;
+  margin: 10px auto;
+}
+.options img {
+  width: 30%
+}
+
 body {
   background-color: #6d7f9e;
+  background-image: url(../img/background.jpg);
 }
+ p {
+   font-size: 22px;
+ }
+ #try {
+   display: block;
+   margin-left: auto;
+   margin-right: auto;
+ }
